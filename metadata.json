@@ -1,0 +1,9 @@
+{
+  "name": "Remix: HumanEdge(CA) AI",
+  "description": "HumanEdge Canada Core: A 100% Integrity Standalone System for high-performance creative generation, code repair, and humanity-driven computing.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
