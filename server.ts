@@ -1,5 +1,6 @@
 
 import express from "express";
+import helmet from "helmet";
 import { createServer as createViteServer } from "vite";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -11,6 +12,7 @@ async function startServer() {
   const app = express();
   const PORT = 3000;
 
+  app.use(helmet());
   app.use(express.json());
 
   // Mock Subscription State (In a real app, this would be in a DB)
